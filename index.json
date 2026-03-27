@@ -1,0 +1,150 @@
+{
+  "version": 1,
+  "updated": "2026-03-28",
+  "skills": [
+    {
+      "id": "python-pytest-patterns",
+      "name": "Pytest Best Practices",
+      "language": "python",
+      "framework": "pytest",
+      "categories": ["testing"],
+      "path": "skills/python/pytest-patterns.md",
+      "description": "Fixtures, parametrize, conftest organization, and assertion patterns for pytest."
+    },
+    {
+      "id": "python-fastapi-conventions",
+      "name": "FastAPI Conventions",
+      "language": "python",
+      "framework": "fastapi",
+      "categories": ["architecture", "error-handling"],
+      "path": "skills/python/fastapi-conventions.md",
+      "description": "Router patterns, dependency injection, HTTPException usage, and response models for FastAPI."
+    },
+    {
+      "id": "python-django-conventions",
+      "name": "Django Conventions",
+      "language": "python",
+      "framework": "django",
+      "categories": ["architecture", "testing"],
+      "path": "skills/python/django-conventions.md",
+      "description": "Model-view-template patterns, ORM conventions, and test client usage for Django."
+    },
+    {
+      "id": "python-flask-conventions",
+      "name": "Flask Conventions",
+      "language": "python",
+      "framework": "flask",
+      "categories": ["architecture", "error-handling"],
+      "path": "skills/python/flask-conventions.md",
+      "description": "Blueprint structure, error handlers, and application factory pattern for Flask."
+    },
+    {
+      "id": "python-sqlalchemy-patterns",
+      "name": "SQLAlchemy Patterns",
+      "language": "python",
+      "framework": "sqlalchemy",
+      "categories": ["architecture"],
+      "path": "skills/python/sqlalchemy-patterns.md",
+      "description": "Session management, eager loading, relationship patterns, and migration conventions for SQLAlchemy."
+    },
+    {
+      "id": "python-structlog-logging",
+      "name": "Structured Logging with structlog",
+      "language": "python",
+      "framework": null,
+      "categories": ["logging-and-observability"],
+      "path": "skills/python/structlog-logging.md",
+      "description": "Structured logging setup, processor chains, and context binding with structlog."
+    },
+    {
+      "id": "typescript-nextjs-patterns",
+      "name": "Next.js Patterns",
+      "language": "typescript",
+      "framework": "next",
+      "categories": ["architecture", "code-style"],
+      "path": "skills/typescript/nextjs-patterns.md",
+      "description": "App Router conventions, server components, data fetching, and file-based routing for Next.js."
+    },
+    {
+      "id": "typescript-react-conventions",
+      "name": "React Conventions",
+      "language": "typescript",
+      "framework": "react",
+      "categories": ["naming-conventions", "architecture"],
+      "path": "skills/typescript/react-conventions.md",
+      "description": "Component naming, hook patterns, state management, and file organization for React with TypeScript."
+    },
+    {
+      "id": "typescript-vitest-testing",
+      "name": "Vitest Testing",
+      "language": "typescript",
+      "framework": "vitest",
+      "categories": ["testing"],
+      "path": "skills/typescript/vitest-testing.md",
+      "description": "Test organization, mocking, snapshot testing, and coverage configuration for Vitest."
+    },
+    {
+      "id": "javascript-express-patterns",
+      "name": "Express Patterns",
+      "language": "javascript",
+      "framework": "express",
+      "categories": ["architecture", "error-handling"],
+      "path": "skills/javascript/express-patterns.md",
+      "description": "Middleware patterns, router organization, error handling, and request validation for Express."
+    },
+    {
+      "id": "go-gin-conventions",
+      "name": "Gin Conventions",
+      "language": "go",
+      "framework": "gin",
+      "categories": ["architecture", "error-handling"],
+      "path": "skills/go/gin-conventions.md",
+      "description": "Router groups, middleware, error responses, and handler patterns for Gin."
+    },
+    {
+      "id": "go-cobra-cli-patterns",
+      "name": "Cobra CLI Patterns",
+      "language": "go",
+      "framework": "cobra",
+      "categories": ["architecture"],
+      "path": "skills/go/cobra-cli-patterns.md",
+      "description": "Command structure, flag handling, persistent flags, and subcommand organization for Cobra."
+    },
+    {
+      "id": "go-stdlib-patterns",
+      "name": "Go Standard Library Patterns",
+      "language": "go",
+      "framework": null,
+      "categories": ["error-handling", "testing"],
+      "path": "skills/go/stdlib-patterns.md",
+      "description": "Error wrapping, table-driven tests, interfaces, and context usage in idiomatic Go."
+    },
+    {
+      "id": "rust-actix-conventions",
+      "name": "Actix Web Conventions",
+      "language": "rust",
+      "framework": "actix",
+      "categories": ["architecture", "error-handling"],
+      "path": "skills/rust/actix-conventions.md",
+      "description": "Handler patterns, extractors, error responses, and app state management for Actix Web."
+    },
+    {
+      "id": "rust-tokio-patterns",
+      "name": "Tokio Async Patterns",
+      "language": "rust",
+      "framework": "tokio",
+      "categories": ["architecture", "error-handling"],
+      "path": "skills/rust/tokio-patterns.md",
+      "description": "Task spawning, channel patterns, graceful shutdown, and error handling in async Rust with Tokio."
+    },
+    {
+      "id": "java-spring-boot-patterns",
+      "name": "Spring Boot Patterns",
+      "language": "java",
+      "framework": "spring",
+      "categories": ["architecture", "testing", "error-handling"],
+      "path": "skills/java/spring-boot-patterns.md",
+      "description": "Layered architecture, repository pattern, @ControllerAdvice, and integration testing for Spring Boot."
+    }
+  ]
+}
