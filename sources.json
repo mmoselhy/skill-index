@@ -1,0 +1,7 @@
+{
+  "sources": [
+    {"repo": "anthropics/skills", "adapter": "anthropic_skills", "trust": "official", "enabled": true},
+    {"repo": "github/awesome-copilot", "adapter": "copilot_instructions", "trust": "official", "enabled": true},
+    {"repo": "PatrickJS/awesome-cursorrules", "adapter": "cursorrules", "trust": "community", "enabled": true}
+  ]
+}
