@@ -1,150 +1,4412 @@
 {
-  "version": 1,
-  "updated": "2026-03-28",
+  "version": 2,
+  "updated": "2026-03-28T20:28:33+00:00",
+  "sources_crawled": [
+    "anthropics/skills",
+    "github/awesome-copilot",
+    "PatrickJS/awesome-cursorrules"
+  ],
   "skills": [
     {
-      "id": "python-pytest-patterns",
-      "name": "Pytest Best Practices",
-      "language": "python",
-      "framework": "pytest",
-      "categories": ["testing"],
-      "path": "skills/python/pytest-patterns.md",
-      "description": "Fixtures, parametrize, conftest organization, and assertion patterns for pytest."
+      "id": "skills-algorithmic-art",
+      "name": "algorithmic-art",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "imports-and-dependencies",
+        "documentation",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
+      "source_repo": "anthropics/skills",
+      "source_path": "skills/algorithmic-art/SKILL.md",
+      "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/algorithmic-art/SKILL.md",
+      "trust": "official",
+      "format": "markdown",
+      "tags": [
+        "algorithmic-art"
+      ],
+      "updated_at": ""
     },
     {
-      "id": "python-fastapi-conventions",
-      "name": "FastAPI Conventions",
-      "language": "python",
-      "framework": "fastapi",
-      "categories": ["architecture", "error-handling"],
-      "path": "skills/python/fastapi-conventions.md",
-      "description": "Router patterns, dependency injection, HTTPException usage, and response models for FastAPI."
+      "id": "skills-brand-guidelines",
+      "name": "brand-guidelines",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "code-style"
+      ],
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+      "source_repo": "anthropics/skills",
+      "source_path": "skills/brand-guidelines/SKILL.md",
+      "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/brand-guidelines/SKILL.md",
+      "trust": "official",
+      "format": "markdown",
+      "tags": [
+        "brand-guidelines"
+      ],
+      "updated_at": ""
     },
     {
-      "id": "python-django-conventions",
+      "id": "skills-canvas-design",
+      "name": "canvas-design",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
+      "source_repo": "anthropics/skills",
+      "source_path": "skills/canvas-design/SKILL.md",
+      "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/canvas-design/SKILL.md",
+      "trust": "official",
+      "format": "markdown",
+      "tags": [
+        "canvas-design"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "skills-claude-api",
+      "name": "claude-api",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-science tasks.",
+      "source_repo": "anthropics/skills",
+      "source_path": "skills/claude-api/SKILL.md",
+      "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/claude-api/SKILL.md",
+      "trust": "official",
+      "format": "markdown",
+      "tags": [
+        "claude-api"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "skills-doc-coauthoring",
+      "name": "doc-coauthoring",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+      "source_repo": "anthropics/skills",
+      "source_path": "skills/doc-coauthoring/SKILL.md",
+      "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/doc-coauthoring/SKILL.md",
+      "trust": "official",
+      "format": "markdown",
+      "tags": [
+        "doc-coauthoring"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "skills-docx",
+      "name": "docx",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "imports-and-dependencies",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation.",
+      "source_repo": "anthropics/skills",
+      "source_path": "skills/docx/SKILL.md",
+      "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/docx/SKILL.md",
+      "trust": "official",
+      "format": "markdown",
+      "tags": [
+        "docx"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "skills-frontend-design",
+      "name": "frontend-design",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Create distinctive, production-grade frontend interfaces with high design quality. Use this skill when the user asks to build web components, pages, artifacts, posters, or applications (examples include websites, landing pages, dashboards, React components, HTML/CSS layouts, or when styling/beautifying any web UI). Generates creative, polished code and UI design that avoids generic AI aesthetics.",
+      "source_repo": "anthropics/skills",
+      "source_path": "skills/frontend-design/SKILL.md",
+      "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend-design/SKILL.md",
+      "trust": "official",
+      "format": "markdown",
+      "tags": [
+        "frontend-design"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "skills-internal-comms",
+      "name": "internal-comms",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+      "source_repo": "anthropics/skills",
+      "source_path": "skills/internal-comms/SKILL.md",
+      "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/internal-comms/SKILL.md",
+      "trust": "official",
+      "format": "markdown",
+      "tags": [
+        "internal-comms"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "skills-mcp-builder",
+      "name": "mcp-builder",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "source_repo": "anthropics/skills",
+      "source_path": "skills/mcp-builder/SKILL.md",
+      "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/mcp-builder/SKILL.md",
+      "trust": "official",
+      "format": "markdown",
+      "tags": [
+        "mcp-builder"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "skills-pdf",
+      "name": "pdf",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "imports-and-dependencies",
+        "code-style"
+      ],
+      "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
+      "source_repo": "anthropics/skills",
+      "source_path": "skills/pdf/SKILL.md",
+      "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/pdf/SKILL.md",
+      "trust": "official",
+      "format": "markdown",
+      "tags": [
+        "pdf"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "skills-pptx",
+      "name": "pptx",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions \"deck,\" \"slides,\" \"presentation,\" or references a .pptx filename, regardless of what they plan to do with the content afterward. If a .pptx file needs to be opened, created, or touched, use this skill.",
+      "source_repo": "anthropics/skills",
+      "source_path": "skills/pptx/SKILL.md",
+      "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/pptx/SKILL.md",
+      "trust": "official",
+      "format": "markdown",
+      "tags": [
+        "pptx"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "skills-skill-creator",
+      "name": "skill-creator",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "documentation",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+      "source_repo": "anthropics/skills",
+      "source_path": "skills/skill-creator/SKILL.md",
+      "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/skill-creator/SKILL.md",
+      "trust": "official",
+      "format": "markdown",
+      "tags": [
+        "skill-creator"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "skills-slack-gif-creator",
+      "name": "slack-gif-creator",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+      "source_repo": "anthropics/skills",
+      "source_path": "skills/slack-gif-creator/SKILL.md",
+      "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/slack-gif-creator/SKILL.md",
+      "trust": "official",
+      "format": "markdown",
+      "tags": [
+        "slack-gif-creator"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "skills-theme-factory",
+      "name": "theme-factory",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+      "source_repo": "anthropics/skills",
+      "source_path": "skills/theme-factory/SKILL.md",
+      "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/theme-factory/SKILL.md",
+      "trust": "official",
+      "format": "markdown",
+      "tags": [
+        "theme-factory"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "skills-web-artifacts-builder",
+      "name": "web-artifacts-builder",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+      "source_repo": "anthropics/skills",
+      "source_path": "skills/web-artifacts-builder/SKILL.md",
+      "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/web-artifacts-builder/SKILL.md",
+      "trust": "official",
+      "format": "markdown",
+      "tags": [
+        "web-artifacts-builder"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "skills-webapp-testing",
+      "name": "webapp-testing",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "testing",
+        "logging-and-observability"
+      ],
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "source_repo": "anthropics/skills",
+      "source_path": "skills/webapp-testing/SKILL.md",
+      "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/webapp-testing/SKILL.md",
+      "trust": "official",
+      "format": "markdown",
+      "tags": [
+        "webapp-testing"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "skills-xlsx",
+      "name": "xlsx",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "documentation",
+        "code-style"
+      ],
+      "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \"the xlsx in my downloads\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
+      "source_repo": "anthropics/skills",
+      "source_path": "skills/xlsx/SKILL.md",
+      "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/xlsx/SKILL.md",
+      "trust": "official",
+      "format": "markdown",
+      "tags": [
+        "xlsx"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-android-jetpack-compose-cursor-rules",
+      "name": "Android Jetpack Compose Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Cursor rules for Android Jetpack Compose development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/android-jetpack-compose-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/android-jetpack-compose-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "android-jetpack-compose"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-angular-novo-elements-cursor-rules",
+      "name": "Angular Novo Elements Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "testing",
+        "documentation",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Angular Novo Elements development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/angular-novo-elements-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/angular-novo-elements-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "angular-novo-elements"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-angular-typescript-cursor-rules",
+      "name": "Angular Typescript Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "imports-and-dependencies",
+        "documentation",
+        "code-style"
+      ],
+      "description": "Cursor rules for Angular Typescript development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/angular-typescript-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/angular-typescript-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "angular-typescript"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-ascii-simulation-game-cursor-rules",
+      "name": "Ascii Simulation Game Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Ascii Simulation Game development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/ascii-simulation-game-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/ascii-simulation-game-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "ascii-simulation-game"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-aspnet-abp-cursor-rules",
+      "name": "Aspnet Abp Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "documentation",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Aspnet Abp development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/aspnet-abp-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/aspnet-abp-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "aspnet-abp"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-astro-typescript-cursor-rules",
+      "name": "Astro Typescript Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "code-style"
+      ],
+      "description": "Cursor rules for Astro Typescript development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/astro-typescript-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/astro-typescript-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "astro-typescript"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-beefreesdk-nocode-content-editor-cursor-rules",
+      "name": "Beefreesdk Nocode Content Editor Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Beefreesdk Nocode Content Editor development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/beefreeSDK-nocode-content-editor-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/beefreeSDK-nocode-content-editor-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "beefreesdk-nocode-content-editor"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-chrome-extension-dev-js-typescript-cursorrules-pro-cursor-rules",
+      "name": "Chrome Extension Dev Js Typescript Cursorrules Pro Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "documentation",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Chrome Extension Dev Js Typescript Cursorrules Pro development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/chrome-extension-dev-js-typescript-cursorrules-pro/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/chrome-extension-dev-js-typescript-cursorrules-pro/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "chrome-extension-dev-js-typescript-cursorrules-pro"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-code-guidelines-cursor-rules",
+      "name": "Code Guidelines Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "documentation",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Code Guidelines development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/code-guidelines-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/code-guidelines-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "code-guidelines"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-code-pair-interviews-cursor-rules",
+      "name": "Code Pair Interviews Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "documentation",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Code Pair Interviews development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/code-pair-interviews/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/code-pair-interviews/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "code-pair-interviews"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-code-style-consistency-cursor-rules",
+      "name": "Code Style Consistency Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "documentation",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Code Style Consistency development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/code-style-consistency-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/code-style-consistency-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "code-style-consistency"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-convex-cursor-rules",
+      "name": "Convex Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Cursor rules for Convex development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/convex-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/convex-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "convex"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-cpp-programming-guidelines-cursor-rules",
+      "name": "Cpp Programming Guidelines Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "documentation",
+        "architecture"
+      ],
+      "description": "Cursor rules for Cpp Programming Guidelines development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/cpp-programming-guidelines-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/cpp-programming-guidelines-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "cpp-programming-guidelines"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-cursor-ai-react-typescript-shadcn-ui-cursorrules-p-cursor-rules",
+      "name": "Cursor Ai React Typescript Shadcn Ui Cursorrules P Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions"
+      ],
+      "description": "Cursor rules for Cursor Ai React Typescript Shadcn Ui Cursorrules P development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/cursor-ai-react-typescript-shadcn-ui-cursorrules-p/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/cursor-ai-react-typescript-shadcn-ui-cursorrules-p/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "cursor-ai-react-typescript-shadcn-ui-cursorrules-p"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-cursorrules-cursor-ai-nextjs-14-tailwind-seo-setup-cursor-rules",
+      "name": "Cursorrules Cursor Ai Nextjs 14 Tailwind Seo Setup Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "documentation",
+        "architecture"
+      ],
+      "description": "Cursor rules for Cursorrules Cursor Ai Nextjs 14 Tailwind Seo Setup development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/cursorrules-cursor-ai-nextjs-14-tailwind-seo-setup/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/cursorrules-cursor-ai-nextjs-14-tailwind-seo-setup/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "cursorrules-cursor-ai-nextjs-14-tailwind-seo-setup"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-cursorrules-cursor-ai-wordpress-draft-macos-prompt-cursor-rules",
+      "name": "Cursorrules Cursor Ai Wordpress Draft Macos Prompt Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Cursorrules Cursor Ai Wordpress Draft Macos Prompt development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/cursorrules-cursor-ai-wordpress-draft-macos-prompt/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/cursorrules-cursor-ai-wordpress-draft-macos-prompt/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "cursorrules-cursor-ai-wordpress-draft-macos-prompt"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-cursorrules-file-cursor-ai-python-fastapi-api-cursor-rules",
+      "name": "Cursorrules File Cursor Ai Python Fastapi Api Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "documentation",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Cursorrules File Cursor Ai Python Fastapi Api development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/cursorrules-file-cursor-ai-python-fastapi-api/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/cursorrules-file-cursor-ai-python-fastapi-api/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "cursorrules-file-cursor-ai-python-fastapi-api"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-cypress-accessibility-testing-cursor-rules",
+      "name": "Cypress Accessibility Testing Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "testing",
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Cursor rules for Cypress Accessibility Testing development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/cypress-accessibility-testing-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/cypress-accessibility-testing-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "cypress-accessibility-testing"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-cypress-api-testing-cursor-rules",
+      "name": "Cypress Api Testing Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies"
+      ],
+      "description": "Cursor rules for Cypress Api Testing development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/cypress-api-testing-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/cypress-api-testing-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "cypress-api-testing"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-cypress-defect-tracking-cursor-rules",
+      "name": "Cypress Defect Tracking Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "testing",
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Cursor rules for Cypress Defect Tracking development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/cypress-defect-tracking-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/cypress-defect-tracking-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "cypress-defect-tracking"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-cypress-e2e-testing-cursor-rules",
+      "name": "Cypress E2E Testing Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing"
+      ],
+      "description": "Cursor rules for Cypress E2E Testing development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/cypress-e2e-testing-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/cypress-e2e-testing-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "cypress-e2e-testing"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-cypress-integration-testing-cursor-rules",
+      "name": "Cypress Integration Testing Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Cypress Integration Testing development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/cypress-integration-testing-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/cypress-integration-testing-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "cypress-integration-testing"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-deno-integration-techniques-cursorrules-prompt-fil-cursor-rules",
+      "name": "Deno Integration Techniques Cursorrules Prompt Fil Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Deno Integration Techniques Cursorrules Prompt Fil development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/deno-integration-techniques-cursorrules-prompt-fil/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/deno-integration-techniques-cursorrules-prompt-fil/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "deno-integration-techniques-cursorrules-prompt-fil"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-dragonruby-best-practices-cursor-rules",
+      "name": "Dragonruby Best Practices Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Dragonruby Best Practices development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/dragonruby-best-practices-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/dragonruby-best-practices-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "dragonruby-best-practices"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-drupal-11-cursor-rules",
+      "name": "Drupal 11 Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "testing",
+        "imports-and-dependencies",
+        "documentation",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Drupal 11 development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/drupal-11-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/drupal-11-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "drupal-11"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-elixir-engineer-guidelines-cursor-rules",
+      "name": "Elixir Engineer Guidelines Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Elixir Engineer Guidelines development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/elixir-engineer-guidelines-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/elixir-engineer-guidelines-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "elixir-engineer-guidelines"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-elixir-phoenix-docker-setup-cursorrules-prompt-fil-cursor-rules",
+      "name": "Elixir Phoenix Docker Setup Cursorrules Prompt Fil Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "code-style"
+      ],
+      "description": "Cursor rules for Elixir Phoenix Docker Setup Cursorrules Prompt Fil development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/elixir-phoenix-docker-setup-cursorrules-prompt-fil/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/elixir-phoenix-docker-setup-cursorrules-prompt-fil/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "elixir-phoenix-docker-setup-cursorrules-prompt-fil"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-engineering-ticket-template-cursor-rules",
+      "name": "Engineering Ticket Template Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Cursor rules for Engineering Ticket Template development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/engineering-ticket-template-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/engineering-ticket-template-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "engineering-ticket-template"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-es-module-nodejs-guidelines-cursorrules-prompt-fil-cursor-rules",
+      "name": "Es Module Nodejs Guidelines Cursorrules Prompt Fil Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Es Module Nodejs Guidelines Cursorrules Prompt Fil development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/es-module-nodejs-guidelines-cursorrules-prompt-fil/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/es-module-nodejs-guidelines-cursorrules-prompt-fil/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "es-module-nodejs-guidelines-cursorrules-prompt-fil"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-flutter-app-expert-cursor-rules",
+      "name": "Flutter App Expert Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "architecture"
+      ],
+      "description": "Cursor rules for Flutter App Expert development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/flutter-app-expert-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/flutter-app-expert-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "flutter-app-expert"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-flutter-riverpod-cursor-rules",
+      "name": "Flutter Riverpod Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Cursor rules for Flutter Riverpod development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/flutter-riverpod-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/flutter-riverpod-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "flutter-riverpod"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-gherkin-style-testing-cursor-rules",
+      "name": "Gherkin Style Testing Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "testing"
+      ],
+      "description": "Cursor rules for Gherkin Style Testing development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/gherkin-style-testing-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/gherkin-style-testing-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "gherkin-style-testing"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-git-conventional-commit-messages-cursor-rules",
+      "name": "Git Conventional Commit Messages Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "code-style"
+      ],
+      "description": "Cursor rules for Git Conventional Commit Messages development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/git-conventional-commit-messages/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/git-conventional-commit-messages/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "git-conventional-commit-messages"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-github-code-quality-cursor-rules",
+      "name": "Github Code Quality Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "documentation",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Github Code Quality development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/github-code-quality-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/github-code-quality-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "github-code-quality"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-github-instructions-cursor-rules",
+      "name": "Github Instructions Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "documentation",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Github Instructions development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/github-cursorrules-prompt-file-instructions/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/github-cursorrules-prompt-file-instructions/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "github-instructions"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-go-backend-scalability-cursor-rules",
+      "name": "Go Backend Scalability Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "imports-and-dependencies",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Go Backend Scalability development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/go-backend-scalability-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/go-backend-scalability-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "go-backend-scalability"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-go-servemux-rest-api-cursor-rules",
+      "name": "Go Servemux Rest Api Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Go Servemux Rest Api development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/go-servemux-rest-api-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/go-servemux-rest-api-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "go-servemux-rest-api"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-go-temporal-dsl-prompt-file-cursor-rules",
+      "name": "Go Temporal Dsl Prompt File Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Go Temporal Dsl Prompt File development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/go-temporal-dsl-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/go-temporal-dsl-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "go-temporal-dsl-prompt-file"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-graphical-apps-development-cursor-rules",
+      "name": "Graphical Apps Development Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "documentation",
+        "architecture"
+      ],
+      "description": "Cursor rules for Graphical Apps Development development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/graphical-apps-development-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/graphical-apps-development-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "graphical-apps-development"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-how-to-documentation-cursor-rules",
+      "name": "How To Documentation Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "testing",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for How To Documentation development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/how-to-documentation-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/how-to-documentation-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "how-to-documentation"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-html-tailwind-css-javascript-cursorrules-prompt-fi-cursor-rules",
+      "name": "Html Tailwind Css Javascript Cursorrules Prompt Fi Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Html Tailwind Css Javascript Cursorrules Prompt Fi development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/html-tailwind-css-javascript-cursorrules-prompt-fi/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/html-tailwind-css-javascript-cursorrules-prompt-fi/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "html-tailwind-css-javascript-cursorrules-prompt-fi"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-htmx-basic-cursor-rules",
+      "name": "Htmx Basic Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling"
+      ],
+      "description": "Cursor rules for Htmx Basic development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/htmx-basic-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/htmx-basic-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "htmx-basic"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-htmx-django-cursor-rules",
+      "name": "Htmx Django Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Htmx Django development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/htmx-django-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/htmx-django-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "htmx-django"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-htmx-flask-cursor-rules",
+      "name": "Htmx Flask Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Htmx Flask development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/htmx-flask-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/htmx-flask-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "htmx-flask"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-htmx-go-basic-cursor-rules",
+      "name": "Htmx Go Basic Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "imports-and-dependencies",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Htmx Go Basic development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/htmx-go-basic-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/htmx-go-basic-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "htmx-go-basic"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-htmx-go-fiber-cursor-rules",
+      "name": "Htmx Go Fiber Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Htmx Go Fiber development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/htmx-go-fiber-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/htmx-go-fiber-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "htmx-go-fiber"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-java-general-purpose-cursor-rules",
+      "name": "Java General Purpose Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Cursor rules for Java General Purpose development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/java-general-purpose-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/java-general-purpose-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "java-general-purpose"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-java-springboot-jpa-cursor-rules",
+      "name": "Java Springboot Jpa Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "architecture"
+      ],
+      "description": "Cursor rules for Java Springboot Jpa development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/java-springboot-jpa-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/java-springboot-jpa-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "java-springboot-jpa"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-javascript-astro-tailwind-css-cursorrules-prompt-f-cursor-rules",
+      "name": "Javascript Astro Tailwind Css Cursorrules Prompt F Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Javascript Astro Tailwind Css Cursorrules Prompt F development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/javascript-astro-tailwind-css-cursorrules-prompt-f/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/javascript-astro-tailwind-css-cursorrules-prompt-f/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "javascript-astro-tailwind-css-cursorrules-prompt-f"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-javascript-chrome-apis-cursor-rules",
+      "name": "Javascript Chrome Apis Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Javascript Chrome Apis development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/javascript-chrome-apis-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/javascript-chrome-apis-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "javascript-chrome-apis"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-javascript-typescript-code-quality-cursorrules-pro-cursor-rules",
+      "name": "Javascript Typescript Code Quality Cursorrules Pro Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "testing",
+        "documentation"
+      ],
+      "description": "Cursor rules for Javascript Typescript Code Quality Cursorrules Pro development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/javascript-typescript-code-quality-cursorrules-pro/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/javascript-typescript-code-quality-cursorrules-pro/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "javascript-typescript-code-quality-cursorrules-pro"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-jest-unit-testing-cursor-rules",
+      "name": "Jest Unit Testing Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Cursor rules for Jest Unit Testing development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/jest-unit-testing-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/jest-unit-testing-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "jest-unit-testing"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-knative-istio-typesense-gpu-cursorrules-prompt-fil-cursor-rules",
+      "name": "Knative Istio Typesense Gpu Cursorrules Prompt Fil Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Knative Istio Typesense Gpu Cursorrules Prompt Fil development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/knative-istio-typesense-gpu-cursorrules-prompt-fil/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/knative-istio-typesense-gpu-cursorrules-prompt-fil/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "knative-istio-typesense-gpu-cursorrules-prompt-fil"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-kotlin-ktor-development-cursor-rules",
+      "name": "Kotlin Ktor Development Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Kotlin Ktor Development development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/kotlin-ktor-development-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/kotlin-ktor-development-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "kotlin-ktor-development"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-kotlin-springboot-best-practices-cursor-rules",
+      "name": "Kotlin Springboot Best Practices Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Kotlin Springboot Best Practices development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/kotlin-springboot-best-practices-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/kotlin-springboot-best-practices-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "kotlin-springboot-best-practices"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-kubernetes-mkdocs-documentation-cursorrules-prompt-cursor-rules",
+      "name": "Kubernetes Mkdocs Documentation Cursorrules Prompt Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture"
+      ],
+      "description": "Cursor rules for Kubernetes Mkdocs Documentation Cursorrules Prompt development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/kubernetes-mkdocs-documentation-cursorrules-prompt/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/kubernetes-mkdocs-documentation-cursorrules-prompt/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "kubernetes-mkdocs-documentation-cursorrules-prompt"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-laravel-php-83-cursor-rules",
+      "name": "Laravel Php 83 Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "testing",
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Cursor rules for Laravel Php 83 development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/laravel-php-83-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/laravel-php-83-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "laravel-php-83"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-laravel-tall-stack-best-practices-cursorrules-prom-cursor-rules",
+      "name": "Laravel Tall Stack Best Practices Cursorrules Prom Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Laravel Tall Stack Best Practices Cursorrules Prom development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/laravel-tall-stack-best-practices-cursorrules-prom/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/laravel-tall-stack-best-practices-cursorrules-prom/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "laravel-tall-stack-best-practices-cursorrules-prom"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-linux-nvidia-cuda-python-cursor-rules",
+      "name": "Linux Nvidia Cuda Python Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Linux Nvidia Cuda Python development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/linux-nvidia-cuda-python-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/linux-nvidia-cuda-python-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "linux-nvidia-cuda-python"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-manifest-yaml-cursor-rules",
+      "name": "Manifest Yaml Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "imports-and-dependencies",
+        "documentation",
+        "architecture"
+      ],
+      "description": "Cursor rules for Manifest Yaml development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/manifest-yaml-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/manifest-yaml-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "manifest-yaml"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-medusa-cursorrules-cursor-rules",
+      "name": "Medusa Cursorrules Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Cursor rules for Medusa Cursorrules development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/medusa-cursorrules/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/medusa-cursorrules/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "medusa-cursorrules"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-nativescript-cursor-rules",
+      "name": "Nativescript Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "architecture"
+      ],
+      "description": "Cursor rules for Nativescript development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/nativescript-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nativescript-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "nativescript"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-netlify-official-cursor-rules",
+      "name": "Netlify Official Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Cursor rules for Netlify Official development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/netlify-official-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/netlify-official-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "netlify-official"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-next-type-llm-cursor-rules",
+      "name": "Next Type Llm Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "imports-and-dependencies"
+      ],
+      "description": "Cursor rules for Next Type Llm development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/next-type-llm/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/next-type-llm/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "next-type-llm"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-nextjs-app-router-cursor-rules",
+      "name": "Nextjs App Router Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "architecture"
+      ],
+      "description": "Cursor rules for Nextjs App Router development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/nextjs-app-router-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nextjs-app-router-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "nextjs-app-router"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-nextjs-material-ui-tailwind-css-cursorrules-prompt-cursor-rules",
+      "name": "Nextjs Material Ui Tailwind Css Cursorrules Prompt Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Nextjs Material Ui Tailwind Css Cursorrules Prompt development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/nextjs-material-ui-tailwind-css-cursorrules-prompt/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nextjs-material-ui-tailwind-css-cursorrules-prompt/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "nextjs-material-ui-tailwind-css-cursorrules-prompt"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-nextjs-react-tailwind-cursor-rules",
+      "name": "Nextjs React Tailwind Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Nextjs React Tailwind development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/nextjs-react-tailwind-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nextjs-react-tailwind-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "nextjs-react-tailwind"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-nextjs-react-typescript-cursor-rules",
+      "name": "Nextjs React Typescript Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Nextjs React Typescript development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/nextjs-react-typescript-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nextjs-react-typescript-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "nextjs-react-typescript"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-nextjs-seo-dev-cursor-rules",
+      "name": "Nextjs Seo Dev Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "imports-and-dependencies",
+        "code-style"
+      ],
+      "description": "Cursor rules for Nextjs Seo Dev development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/nextjs-seo-dev-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nextjs-seo-dev-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "nextjs-seo-dev"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-nextjs-supabase-shadcn-pwa-cursor-rules",
+      "name": "Nextjs Supabase Shadcn Pwa Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "testing",
+        "imports-and-dependencies",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Nextjs Supabase Shadcn Pwa development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/nextjs-supabase-shadcn-pwa-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nextjs-supabase-shadcn-pwa-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "nextjs-supabase-shadcn-pwa"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-nextjs-supabase-todo-app-cursor-rules",
+      "name": "Nextjs Supabase Todo App Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Nextjs Supabase Todo App development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/nextjs-supabase-todo-app-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nextjs-supabase-todo-app-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "nextjs-supabase-todo-app"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-nextjs-tailwind-typescript-apps-cursorrules-prompt-cursor-rules",
+      "name": "Nextjs Tailwind Typescript Apps Cursorrules Prompt Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Nextjs Tailwind Typescript Apps Cursorrules Prompt development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/nextjs-tailwind-typescript-apps-cursorrules-prompt/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nextjs-tailwind-typescript-apps-cursorrules-prompt/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "nextjs-tailwind-typescript-apps-cursorrules-prompt"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-nextjs-typescript-app-cursor-rules",
+      "name": "Nextjs Typescript App Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Nextjs Typescript App development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/nextjs-typescript-app-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nextjs-typescript-app-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "nextjs-typescript-app"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-nextjs-typescript-cursor-rules",
+      "name": "Nextjs Typescript Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "imports-and-dependencies"
+      ],
+      "description": "Cursor rules for Nextjs Typescript development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/nextjs-typescript-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nextjs-typescript-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "nextjs-typescript"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-nextjs-typescript-tailwind-cursor-rules",
+      "name": "Nextjs Typescript Tailwind Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "documentation",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Nextjs Typescript Tailwind development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/nextjs-typescript-tailwind-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nextjs-typescript-tailwind-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "nextjs-typescript-tailwind"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-nextjs-vercel-supabase-cursor-rules",
+      "name": "Nextjs Vercel Supabase Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "testing",
+        "imports-and-dependencies",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Nextjs Vercel Supabase development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/nextjs-vercel-supabase-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nextjs-vercel-supabase-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "nextjs-vercel-supabase"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-nextjs-vercel-typescript-cursor-rules",
+      "name": "Nextjs Vercel Typescript Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Nextjs Vercel Typescript development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/nextjs-vercel-typescript-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nextjs-vercel-typescript-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "nextjs-vercel-typescript"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-nextjs15-react19-vercelai-tailwind-cursor-rules",
+      "name": "Nextjs15 React19 Vercelai Tailwind Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "architecture"
+      ],
+      "description": "Cursor rules for Nextjs15 React19 Vercelai Tailwind development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nextjs15-react19-vercelai-tailwind-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "nextjs15-react19-vercelai-tailwind"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-nodejs-mongodb-jwt-express-react-cursorrules-promp-cursor-rules",
+      "name": "Nodejs Mongodb Jwt Express React Cursorrules Promp Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling"
+      ],
+      "description": "Cursor rules for Nodejs Mongodb Jwt Express React Cursorrules Promp development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/nodejs-mongodb-jwt-express-react-cursorrules-promp/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nodejs-mongodb-jwt-express-react-cursorrules-promp/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "nodejs-mongodb-jwt-express-react-cursorrules-promp"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-nodejs-mongodb-tutorial-cursor-rules",
+      "name": "Nodejs Mongodb Tutorial Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling"
+      ],
+      "description": "Cursor rules for Nodejs Mongodb Tutorial development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/nodejs-mongodb-cursorrules-prompt-file-tutorial/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nodejs-mongodb-cursorrules-prompt-file-tutorial/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "nodejs-mongodb-tutorial"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-optimize-dry-solid-principles-cursorrules-prompt-f-cursor-rules",
+      "name": "Optimize Dry Solid Principles Cursorrules Prompt F Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture"
+      ],
+      "description": "Cursor rules for Optimize Dry Solid Principles Cursorrules Prompt F development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/optimize-dry-solid-principles-cursorrules-prompt-f/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/optimize-dry-solid-principles-cursorrules-prompt-f/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "optimize-dry-solid-principles-cursorrules-prompt-f"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-optimize-rell-blockchain-code-cursorrules-prompt-f-cursor-rules",
+      "name": "Optimize Rell Blockchain Code Cursorrules Prompt F Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "imports-and-dependencies"
+      ],
+      "description": "Cursor rules for Optimize Rell Blockchain Code Cursorrules Prompt F development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/optimize-rell-blockchain-code-cursorrules-prompt-f/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/optimize-rell-blockchain-code-cursorrules-prompt-f/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "optimize-rell-blockchain-code-cursorrules-prompt-f"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-pandas-scikit-learn-guide-cursor-rules",
+      "name": "Pandas Scikit Learn Guide Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "code-style"
+      ],
+      "description": "Cursor rules for Pandas Scikit Learn Guide development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/pandas-scikit-learn-guide-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/pandas-scikit-learn-guide-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "pandas-scikit-learn-guide"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-plasticode-telegram-api-cursor-rules",
+      "name": "Plasticode Telegram Api Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling"
+      ],
+      "description": "Cursor rules for Plasticode Telegram Api development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/plasticode-telegram-api-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/plasticode-telegram-api-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "plasticode-telegram-api"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-playwright-accessibility-testing-cursor-rules",
+      "name": "Playwright Accessibility Testing Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "testing",
+        "imports-and-dependencies"
+      ],
+      "description": "Cursor rules for Playwright Accessibility Testing development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/playwright-accessibility-testing-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/playwright-accessibility-testing-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "playwright-accessibility-testing"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-playwright-api-testing-cursor-rules",
+      "name": "Playwright Api Testing Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "imports-and-dependencies"
+      ],
+      "description": "Cursor rules for Playwright Api Testing development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/playwright-api-testing-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/playwright-api-testing-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "playwright-api-testing"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-playwright-defect-tracking-cursor-rules",
+      "name": "Playwright Defect Tracking Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "testing",
+        "imports-and-dependencies"
+      ],
+      "description": "Cursor rules for Playwright Defect Tracking development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/playwright-defect-tracking-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/playwright-defect-tracking-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "playwright-defect-tracking"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-playwright-e2e-testing-cursor-rules",
+      "name": "Playwright E2E Testing Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies"
+      ],
+      "description": "Cursor rules for Playwright E2E Testing development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/playwright-e2e-testing-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/playwright-e2e-testing-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "playwright-e2e-testing"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-playwright-integration-testing-cursor-rules",
+      "name": "Playwright Integration Testing Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Playwright Integration Testing development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/playwright-integration-testing-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/playwright-integration-testing-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "playwright-integration-testing"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-pr-template-cursor-rules",
+      "name": "Pr Template Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "testing",
+        "documentation",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Pr Template development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/pr-template-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/pr-template-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "pr-template"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-project-epic-template-cursor-rules",
+      "name": "Project Epic Template Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Project Epic Template development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/project-epic-template-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/project-epic-template-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "project-epic-template"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-py-fast-api-cursor-rules",
+      "name": "Py Fast Api Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "documentation",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Py Fast Api development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/py-fast-api/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/py-fast-api/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "py-fast-api"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-pyqt6-eeg-processing-cursor-rules",
+      "name": "Pyqt6 Eeg Processing Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Pyqt6 Eeg Processing development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/pyqt6-eeg-processing-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/pyqt6-eeg-processing-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "pyqt6-eeg-processing"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-python-typescript-guide-cursor-rules",
+      "name": "Python  Typescript Guide Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Python  Typescript Guide development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/python--typescript-guide-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/python--typescript-guide-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "python-typescript-guide"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-python-312-fastapi-best-practices-cursorrules-prom-cursor-rules",
+      "name": "Python 312 Fastapi Best Practices Cursorrules Prom Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "documentation",
+        "code-style"
+      ],
+      "description": "Cursor rules for Python 312 Fastapi Best Practices Cursorrules Prom development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/python-312-fastapi-best-practices-cursorrules-prom/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/python-312-fastapi-best-practices-cursorrules-prom/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "python-312-fastapi-best-practices-cursorrules-prom"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-python-best-practices-cursor-rules",
+      "name": "Python Best Practices Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "documentation",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Python Best Practices development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/python-cursorrules-prompt-file-best-practices/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/python-cursorrules-prompt-file-best-practices/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "python-best-practices"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-python-containerization-cursor-rules",
+      "name": "Python Containerization Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Python Containerization development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/python-containerization-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/python-containerization-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "python-containerization"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-python-developer-cursor-rules",
+      "name": "Python Developer Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Python Developer development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/python-developer-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/python-developer-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "python-developer"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-python-django-best-practices-cursorrules-prompt-fi-cursor-rules",
+      "name": "Python Django Best Practices Cursorrules Prompt Fi Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Python Django Best Practices Cursorrules Prompt Fi development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/python-django-best-practices-cursorrules-prompt-fi/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/python-django-best-practices-cursorrules-prompt-fi/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "python-django-best-practices-cursorrules-prompt-fi"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-python-fastapi-best-practices-cursorrules-prompt-f-cursor-rules",
+      "name": "Python Fastapi Best Practices Cursorrules Prompt F Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "documentation",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Python Fastapi Best Practices Cursorrules Prompt F development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/python-fastapi-best-practices-cursorrules-prompt-f/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/python-fastapi-best-practices-cursorrules-prompt-f/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "python-fastapi-best-practices-cursorrules-prompt-f"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-python-fastapi-cursor-rules",
+      "name": "Python Fastapi Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "architecture"
+      ],
+      "description": "Cursor rules for Python Fastapi development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/python-fastapi-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/python-fastapi-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "python-fastapi"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-python-fastapi-scalable-api-cursorrules-prompt-fil-cursor-rules",
+      "name": "Python Fastapi Scalable Api Cursorrules Prompt Fil Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Python Fastapi Scalable Api Cursorrules Prompt Fil development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/python-fastapi-scalable-api-cursorrules-prompt-fil/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/python-fastapi-scalable-api-cursorrules-prompt-fil/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "python-fastapi-scalable-api-cursorrules-prompt-fil"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-python-flask-json-guide-cursor-rules",
+      "name": "Python Flask Json Guide Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Cursor rules for Python Flask Json Guide development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/python-flask-json-guide-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/python-flask-json-guide-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "python-flask-json-guide"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-python-github-setup-cursor-rules",
+      "name": "Python Github Setup Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "documentation",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Python Github Setup development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/python-github-setup-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/python-github-setup-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "python-github-setup"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-python-llm-ml-workflow-cursor-rules",
+      "name": "Python Llm Ml Workflow Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "documentation",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Python Llm Ml Workflow development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/python-llm-ml-workflow-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/python-llm-ml-workflow-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "python-llm-ml-workflow"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-python-projects-guide-cursor-rules",
+      "name": "Python Projects Guide Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "documentation",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Python Projects Guide development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/python-projects-guide-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/python-projects-guide-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "python-projects-guide"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-pytorch-scikit-learn-cursor-rules",
+      "name": "Pytorch Scikit Learn Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "documentation",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Pytorch Scikit Learn development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/pytorch-scikit-learn-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/pytorch-scikit-learn-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "pytorch-scikit-learn"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-qa-bug-report-cursor-rules",
+      "name": "Qa Bug Report Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture"
+      ],
+      "description": "Cursor rules for Qa Bug Report development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/qa-bug-report-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/qa-bug-report-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "qa-bug-report"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-qwik-basic-cursor-rules",
+      "name": "Qwik Basic Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "architecture"
+      ],
+      "description": "Cursor rules for Qwik Basic development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/qwik-basic-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/qwik-basic-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "qwik-basic"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-qwik-tailwind-cursor-rules",
+      "name": "Qwik Tailwind Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "architecture"
+      ],
+      "description": "Cursor rules for Qwik Tailwind development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/qwik-tailwind-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/qwik-tailwind-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "qwik-tailwind"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-r-best-practices-cursor-rules",
+      "name": "R Best Practices Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "documentation",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for R Best Practices development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/r-cursorrules-prompt-file-best-practices/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/r-cursorrules-prompt-file-best-practices/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "r-best-practices"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-react-chakra-ui-cursor-rules",
+      "name": "React Chakra Ui Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture"
+      ],
+      "description": "Cursor rules for React Chakra Ui development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/react-chakra-ui-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/react-chakra-ui-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "react-chakra-ui"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-react-components-creation-cursor-rules",
+      "name": "React Components Creation Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Cursor rules for React Components Creation development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/react-components-creation-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/react-components-creation-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "react-components-creation"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-react-graphql-apollo-client-cursor-rules",
+      "name": "React Graphql Apollo Client Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "architecture"
+      ],
+      "description": "Cursor rules for React Graphql Apollo Client development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/react-graphql-apollo-client-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/react-graphql-apollo-client-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "react-graphql-apollo-client"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-react-mobx-cursor-rules",
+      "name": "React Mobx Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "architecture"
+      ],
+      "description": "Cursor rules for React Mobx development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/react-mobx-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/react-mobx-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "react-mobx"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-react-native-expo-cursor-rules",
+      "name": "React Native Expo Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "architecture"
+      ],
+      "description": "Cursor rules for React Native Expo development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/react-native-expo-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/react-native-expo-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "react-native-expo"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-react-native-expo-router-typescript-windows-cursor-rules",
+      "name": "React Native Expo Router Typescript Windows Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "imports-and-dependencies",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for React Native Expo Router Typescript Windows development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/react-native-expo-router-typescript-windows-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/react-native-expo-router-typescript-windows-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "react-native-expo-router-typescript-windows"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-react-nextjs-ui-development-cursorrules-prompt-fil-cursor-rules",
+      "name": "React Nextjs Ui Development Cursorrules Prompt Fil Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for React Nextjs Ui Development Cursorrules Prompt Fil development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/react-nextjs-ui-development-cursorrules-prompt-fil/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/react-nextjs-ui-development-cursorrules-prompt-fil/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "react-nextjs-ui-development-cursorrules-prompt-fil"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-react-query-cursor-rules",
+      "name": "React Query Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "architecture"
+      ],
+      "description": "Cursor rules for React Query development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/react-query-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/react-query-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "react-query"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-react-redux-typescript-cursor-rules",
+      "name": "React Redux Typescript Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "architecture"
+      ],
+      "description": "Cursor rules for React Redux Typescript development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/react-redux-typescript-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/react-redux-typescript-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "react-redux-typescript"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-react-styled-components-cursor-rules",
+      "name": "React Styled Components Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "architecture"
+      ],
+      "description": "Cursor rules for React Styled Components development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/react-styled-components-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/react-styled-components-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "react-styled-components"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-react-typescript-nextjs-nodejs-cursorrules-prompt-cursor-rules",
+      "name": "React Typescript Nextjs Nodejs Cursorrules Prompt  Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for React Typescript Nextjs Nodejs Cursorrules Prompt  development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/react-typescript-nextjs-nodejs-cursorrules-prompt-/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/react-typescript-nextjs-nodejs-cursorrules-prompt-/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "react-typescript-nextjs-nodejs-cursorrules-prompt"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-react-typescript-symfony-cursor-rules",
+      "name": "React Typescript Symfony Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for React Typescript Symfony development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/react-typescript-symfony-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/react-typescript-symfony-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "react-typescript-symfony"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-solidity-foundry-cursor-rules",
+      "name": "Solidity Foundry Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "documentation",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Solidity Foundry development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/solidity-foundry-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/solidity-foundry-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "solidity-foundry"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-solidity-hardhat-cursor-rules",
+      "name": "Solidity Hardhat Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "documentation",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Solidity Hardhat development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/solidity-hardhat-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/solidity-hardhat-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "solidity-hardhat"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-solidity-react-blockchain-apps-cursorrules-prompt-cursor-rules",
+      "name": "Solidity React Blockchain Apps Cursorrules Prompt  Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Solidity React Blockchain Apps Cursorrules Prompt  development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/solidity-react-blockchain-apps-cursorrules-prompt-/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/solidity-react-blockchain-apps-cursorrules-prompt-/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "solidity-react-blockchain-apps-cursorrules-prompt"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-solidjs-basic-cursor-rules",
+      "name": "Solidjs Basic Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "architecture"
+      ],
+      "description": "Cursor rules for Solidjs Basic development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/solidjs-basic-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/solidjs-basic-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "solidjs-basic"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-solidjs-tailwind-cursor-rules",
+      "name": "Solidjs Tailwind Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "architecture"
+      ],
+      "description": "Cursor rules for Solidjs Tailwind development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/solidjs-tailwind-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/solidjs-tailwind-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "solidjs-tailwind"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-solidjs-typescript-cursor-rules",
+      "name": "Solidjs Typescript Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "architecture"
+      ],
+      "description": "Cursor rules for Solidjs Typescript development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/solidjs-typescript-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/solidjs-typescript-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "solidjs-typescript"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-svelte-5-vs-svelte-4-cursor-rules",
+      "name": "Svelte 5 Vs Svelte 4 Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Svelte 5 Vs Svelte 4 development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/svelte-5-vs-svelte-4-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/svelte-5-vs-svelte-4-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "svelte-5-vs-svelte-4"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-sveltekit-restful-api-tailwind-css-cursorrules-pro-cursor-rules",
+      "name": "Sveltekit Restful Api Tailwind Css Cursorrules Pro Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "documentation",
+        "architecture"
+      ],
+      "description": "Cursor rules for Sveltekit Restful Api Tailwind Css Cursorrules Pro development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/sveltekit-restful-api-tailwind-css-cursorrules-pro/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/sveltekit-restful-api-tailwind-css-cursorrules-pro/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "sveltekit-restful-api-tailwind-css-cursorrules-pro"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-sveltekit-tailwindcss-typescript-cursorrules-promp-cursor-rules",
+      "name": "Sveltekit Tailwindcss Typescript Cursorrules Promp Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "documentation",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Sveltekit Tailwindcss Typescript Cursorrules Promp development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/sveltekit-tailwindcss-typescript-cursorrules-promp/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/sveltekit-tailwindcss-typescript-cursorrules-promp/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "sveltekit-tailwindcss-typescript-cursorrules-promp"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-sveltekit-typescript-guide-cursor-rules",
+      "name": "Sveltekit Typescript Guide Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "architecture"
+      ],
+      "description": "Cursor rules for Sveltekit Typescript Guide development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/sveltekit-typescript-guide-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/sveltekit-typescript-guide-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "sveltekit-typescript-guide"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-swiftui-guidelines-cursor-rules",
+      "name": "Swiftui Guidelines Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "testing",
+        "documentation",
+        "architecture"
+      ],
+      "description": "Cursor rules for Swiftui Guidelines development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/swiftui-guidelines-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/swiftui-guidelines-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "swiftui-guidelines"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-tailwind-css-nextjs-guide-cursor-rules",
+      "name": "Tailwind Css Nextjs Guide Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "documentation",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Tailwind Css Nextjs Guide development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/tailwind-css-nextjs-guide-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/tailwind-css-nextjs-guide-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "tailwind-css-nextjs-guide"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-tailwind-react-firebase-cursor-rules",
+      "name": "Tailwind React Firebase Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "architecture"
+      ],
+      "description": "Cursor rules for Tailwind React Firebase development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/tailwind-react-firebase-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/tailwind-react-firebase-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "tailwind-react-firebase"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-tailwind-shadcn-ui-integration-cursorrules-prompt-cursor-rules",
+      "name": "Tailwind Shadcn Ui Integration Cursorrules Prompt  Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "imports-and-dependencies"
+      ],
+      "description": "Cursor rules for Tailwind Shadcn Ui Integration Cursorrules Prompt  development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/tailwind-shadcn-ui-integration-cursorrules-prompt-/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/tailwind-shadcn-ui-integration-cursorrules-prompt-/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "tailwind-shadcn-ui-integration-cursorrules-prompt"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-tauri-svelte-typescript-guide-cursorrules-prompt-f-cursor-rules",
+      "name": "Tauri Svelte Typescript Guide Cursorrules Prompt F Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "documentation",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Tauri Svelte Typescript Guide Cursorrules Prompt F development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/tauri-svelte-typescript-guide-cursorrules-prompt-f/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/tauri-svelte-typescript-guide-cursorrules-prompt-f/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "tauri-svelte-typescript-guide-cursorrules-prompt-f"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-temporal-python-cursorrules-cursor-rules",
+      "name": "Temporal Python Cursorrules Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "documentation",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Temporal Python Cursorrules development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/temporal-python-cursorrules/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/temporal-python-cursorrules/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "temporal-python-cursorrules"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-testrail-test-case-cursor-rules",
+      "name": "Testrail Test Case Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Testrail Test Case development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/testrail-test-case-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/testrail-test-case-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "testrail-test-case"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typescript-axios-cursor-rules",
+      "name": "Typescript Axios Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Typescript Axios development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typescript-axios-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-axios-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typescript-axios"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typescript-clasp-cursor-rules",
+      "name": "Typescript Clasp Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Typescript Clasp development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typescript-clasp-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-clasp-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typescript-clasp"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typescript-code-convention-cursor-rules",
+      "name": "Typescript Code Convention Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "code-style"
+      ],
+      "description": "Cursor rules for Typescript Code Convention development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typescript-code-convention-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-code-convention-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typescript-code-convention"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typescript-expo-jest-detox-cursor-rules",
+      "name": "Typescript Expo Jest Detox Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "code-style"
+      ],
+      "description": "Cursor rules for Typescript Expo Jest Detox development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typescript-expo-jest-detox-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-expo-jest-detox-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typescript-expo-jest-detox"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typescript-llm-tech-stack-cursor-rules",
+      "name": "Typescript Llm Tech Stack Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "documentation",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Typescript Llm Tech Stack development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typescript-llm-tech-stack-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-llm-tech-stack-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typescript-llm-tech-stack"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typescript-nestjs-best-practices-cursorrules-promp-cursor-rules",
+      "name": "Typescript Nestjs Best Practices Cursorrules Promp Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "documentation",
+        "architecture"
+      ],
+      "description": "Cursor rules for Typescript Nestjs Best Practices Cursorrules Promp development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typescript-nestjs-best-practices-cursorrules-promp/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-nestjs-best-practices-cursorrules-promp/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typescript-nestjs-best-practices-cursorrules-promp"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typescript-nextjs-cursor-rules",
+      "name": "Typescript Nextjs Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "imports-and-dependencies",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Typescript Nextjs development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typescript-nextjs-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-nextjs-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typescript-nextjs"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typescript-nextjs-react-cursor-rules",
+      "name": "Typescript Nextjs React Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Typescript Nextjs React development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typescript-nextjs-react-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-nextjs-react-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typescript-nextjs-react"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typescript-nextjs-react-tailwind-supabase-cursorru-cursor-rules",
+      "name": "Typescript Nextjs React Tailwind Supabase Cursorru Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Typescript Nextjs React Tailwind Supabase Cursorru development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typescript-nextjs-react-tailwind-supabase-cursorru/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-nextjs-react-tailwind-supabase-cursorru/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typescript-nextjs-react-tailwind-supabase-cursorru"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typescript-nextjs-supabase-cursor-rules",
+      "name": "Typescript Nextjs Supabase Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Typescript Nextjs Supabase development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typescript-nextjs-supabase-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-nextjs-supabase-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typescript-nextjs-supabase"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typescript-nodejs-nextjs-ai-cursorrules-prompt-fil-cursor-rules",
+      "name": "Typescript Nodejs Nextjs Ai Cursorrules Prompt Fil Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Typescript Nodejs Nextjs Ai Cursorrules Prompt Fil development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typescript-nodejs-nextjs-ai-cursorrules-prompt-fil/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-nodejs-nextjs-ai-cursorrules-prompt-fil/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typescript-nodejs-nextjs-ai-cursorrules-prompt-fil"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typescript-nodejs-nextjs-app-cursorrules-prompt-fi-cursor-rules",
+      "name": "Typescript Nodejs Nextjs App Cursorrules Prompt Fi Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Typescript Nodejs Nextjs App Cursorrules Prompt Fi development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typescript-nodejs-nextjs-app-cursorrules-prompt-fi/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-nodejs-nextjs-app-cursorrules-prompt-fi/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typescript-nodejs-nextjs-app-cursorrules-prompt-fi"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typescript-nodejs-nextjs-react-ui-css-cursorrules-cursor-rules",
+      "name": "Typescript Nodejs Nextjs React Ui Css Cursorrules  Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Typescript Nodejs Nextjs React Ui Css Cursorrules  development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typescript-nodejs-nextjs-react-ui-css-cursorrules-/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-nodejs-nextjs-react-ui-css-cursorrules-/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typescript-nodejs-nextjs-react-ui-css-cursorrules"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typescript-nodejs-react-vite-cursorrules-prompt-fi-cursor-rules",
+      "name": "Typescript Nodejs React Vite Cursorrules Prompt Fi Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Typescript Nodejs React Vite Cursorrules Prompt Fi development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typescript-nodejs-react-vite-cursorrules-prompt-fi/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-nodejs-react-vite-cursorrules-prompt-fi/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typescript-nodejs-react-vite-cursorrules-prompt-fi"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typescript-react-cursor-rules",
+      "name": "Typescript React Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Typescript React development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typescript-react-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-react-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typescript-react"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typescript-react-nextjs-cloudflare-cursorrules-pro-cursor-rules",
+      "name": "Typescript React Nextjs Cloudflare Cursorrules Pro Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Typescript React Nextjs Cloudflare Cursorrules Pro development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typescript-react-nextjs-cloudflare-cursorrules-pro/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-react-nextjs-cloudflare-cursorrules-pro/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typescript-react-nextjs-cloudflare-cursorrules-pro"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typescript-react-nextui-supabase-cursorrules-promp-cursor-rules",
+      "name": "Typescript React Nextui Supabase Cursorrules Promp Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "architecture"
+      ],
+      "description": "Cursor rules for Typescript React Nextui Supabase Cursorrules Promp development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typescript-react-nextui-supabase-cursorrules-promp/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-react-nextui-supabase-cursorrules-promp/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typescript-react-nextui-supabase-cursorrules-promp"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typescript-shadcn-ui-nextjs-cursorrules-prompt-fil-cursor-rules",
+      "name": "Typescript Shadcn Ui Nextjs Cursorrules Prompt Fil Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Typescript Shadcn Ui Nextjs Cursorrules Prompt Fil development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typescript-shadcn-ui-nextjs-cursorrules-prompt-fil/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-shadcn-ui-nextjs-cursorrules-prompt-fil/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typescript-shadcn-ui-nextjs-cursorrules-prompt-fil"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typescript-vite-tailwind-cursor-rules",
+      "name": "Typescript Vite Tailwind Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Typescript Vite Tailwind development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typescript-vite-tailwind-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-vite-tailwind-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typescript-vite-tailwind"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typescript-vuejs-cursor-rules",
+      "name": "Typescript Vuejs Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "code-style"
+      ],
+      "description": "Cursor rules for Typescript Vuejs development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typescript-vuejs-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-vuejs-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typescript-vuejs"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typescript-zod-tailwind-nextjs-cursorrules-prompt-cursor-rules",
+      "name": "Typescript Zod Tailwind Nextjs Cursorrules Prompt  Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Typescript Zod Tailwind Nextjs Cursorrules Prompt  development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typescript-zod-tailwind-nextjs-cursorrules-prompt-/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typescript-zod-tailwind-nextjs-cursorrules-prompt-/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typescript-zod-tailwind-nextjs-cursorrules-prompt"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-typo3cms-extension-cursor-rules",
+      "name": "Typo3Cms Extension Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "testing",
+        "imports-and-dependencies",
+        "documentation",
+        "architecture"
+      ],
+      "description": "Cursor rules for Typo3Cms Extension development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/typo3cms-extension-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/typo3cms-extension-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "typo3cms-extension"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-uikit-guidelines-cursor-rules",
+      "name": "Uikit Guidelines Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "documentation",
+        "architecture"
+      ],
+      "description": "Cursor rules for Uikit Guidelines development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/uikit-guidelines-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/uikit-guidelines-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "uikit-guidelines"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-unity-cursor-ai-c-cursor-rules",
+      "name": "Unity Cursor Ai C Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Unity Cursor Ai C development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/unity-cursor-ai-c-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/unity-cursor-ai-c-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "unity-cursor-ai-c"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-vitest-unit-testing-cursor-rules",
+      "name": "Vitest Unit Testing Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Cursor rules for Vitest Unit Testing development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/vitest-unit-testing-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/vitest-unit-testing-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "vitest-unit-testing"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-vscode-extension-dev-typescript-cursor-rules",
+      "name": "Vscode Extension Dev Typescript Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "documentation",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Vscode Extension Dev Typescript development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/vscode-extension-dev-typescript-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/vscode-extension-dev-typescript-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "vscode-extension-dev-typescript"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-vue-3-nuxt-3-development-cursor-rules",
+      "name": "Vue 3 Nuxt 3 Development Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "imports-and-dependencies"
+      ],
+      "description": "Cursor rules for Vue 3 Nuxt 3 Development development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/vue-3-nuxt-3-development-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/vue-3-nuxt-3-development-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "vue-3-nuxt-3-development"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-vue-3-nuxt-3-typescript-cursor-rules",
+      "name": "Vue 3 Nuxt 3 Typescript Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Vue 3 Nuxt 3 Typescript development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/vue-3-nuxt-3-typescript-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/vue-3-nuxt-3-typescript-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "vue-3-nuxt-3-typescript"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-vue3-composition-api-cursor-rules",
+      "name": "Vue3 Composition Api Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "architecture"
+      ],
+      "description": "Cursor rules for Vue3 Composition Api development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/vue3-composition-api-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/vue3-composition-api-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "vue3-composition-api"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-web-app-optimization-cursor-rules",
+      "name": "Web App Optimization Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Web App Optimization development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/web-app-optimization-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/web-app-optimization-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "web-app-optimization"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-webassembly-z80-cellular-automata-cursorrules-prom-cursor-rules",
+      "name": "Webassembly Z80 Cellular Automata Cursorrules Prom Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture"
+      ],
+      "description": "Cursor rules for Webassembly Z80 Cellular Automata Cursorrules Prom development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/webassembly-z80-cellular-automata-cursorrules-prom/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/webassembly-z80-cellular-automata-cursorrules-prom/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "webassembly-z80-cellular-automata-cursorrules-prom"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-wordpress-php-guzzle-gutenberg-cursorrules-prompt-cursor-rules",
+      "name": "Wordpress Php Guzzle Gutenberg Cursorrules Prompt  Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Wordpress Php Guzzle Gutenberg Cursorrules Prompt  development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/wordpress-php-guzzle-gutenberg-cursorrules-prompt-/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/wordpress-php-guzzle-gutenberg-cursorrules-prompt-/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "wordpress-php-guzzle-gutenberg-cursorrules-prompt"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-xian-smart-contracts-cursor-rules-prompt-file-cursor-rules",
+      "name": "Xian Smart Contracts Cursor Rules Prompt File Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Xian Smart Contracts Cursor Rules Prompt File development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/xian-smart-contracts-cursor-rules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/xian-smart-contracts-cursor-rules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "xian-smart-contracts-cursor-rules-prompt-file"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-xray-test-case-cursor-rules",
+      "name": "Xray Test Case Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "testing"
+      ],
+      "description": "Cursor rules for Xray Test Case development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/xray-test-case-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/xray-test-case-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "xray-test-case"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "contributed-actix-conventions",
+      "name": "Actix Conventions",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "architecture"
+      ],
+      "description": "Community-contributed skill: Actix Conventions.",
+      "source_repo": "",
+      "source_path": "contributed/actix-conventions.md",
+      "content_url": "",
+      "trust": "contributed",
+      "format": "markdown",
+      "tags": [],
+      "updated_at": ""
+    },
+    {
+      "id": "contributed-cobra-cli-patterns",
+      "name": "Cobra Cli Patterns",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture"
+      ],
+      "description": "Community-contributed skill: Cobra Cli Patterns.",
+      "source_repo": "",
+      "source_path": "contributed/cobra-cli-patterns.md",
+      "content_url": "",
+      "trust": "contributed",
+      "format": "markdown",
+      "tags": [],
+      "updated_at": ""
+    },
+    {
+      "id": "contributed-django-conventions",
       "name": "Django Conventions",
-      "language": "python",
-      "framework": "django",
-      "categories": ["architecture", "testing"],
-      "path": "skills/python/django-conventions.md",
-      "description": "Model-view-template patterns, ORM conventions, and test client usage for Django."
-    },
-    {
-      "id": "python-flask-conventions",
-      "name": "Flask Conventions",
-      "language": "python",
-      "framework": "flask",
-      "categories": ["architecture", "error-handling"],
-      "path": "skills/python/flask-conventions.md",
-      "description": "Blueprint structure, error handlers, and application factory pattern for Flask."
-    },
-    {
-      "id": "python-sqlalchemy-patterns",
-      "name": "SQLAlchemy Patterns",
-      "language": "python",
-      "framework": "sqlalchemy",
-      "categories": ["architecture"],
-      "path": "skills/python/sqlalchemy-patterns.md",
-      "description": "Session management, eager loading, relationship patterns, and migration conventions for SQLAlchemy."
-    },
-    {
-      "id": "python-structlog-logging",
-      "name": "Structured Logging with structlog",
-      "language": "python",
+      "language": "any",
       "framework": null,
-      "categories": ["logging-and-observability"],
-      "path": "skills/python/structlog-logging.md",
-      "description": "Structured logging setup, processor chains, and context binding with structlog."
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Community-contributed skill: Django Conventions.",
+      "source_repo": "",
+      "source_path": "contributed/django-conventions.md",
+      "content_url": "",
+      "trust": "contributed",
+      "format": "markdown",
+      "tags": [],
+      "updated_at": ""
     },
     {
-      "id": "typescript-nextjs-patterns",
-      "name": "Next.js Patterns",
-      "language": "typescript",
-      "framework": "next",
-      "categories": ["architecture", "code-style"],
-      "path": "skills/typescript/nextjs-patterns.md",
-      "description": "App Router conventions, server components, data fetching, and file-based routing for Next.js."
-    },
-    {
-      "id": "typescript-react-conventions",
-      "name": "React Conventions",
-      "language": "typescript",
-      "framework": "react",
-      "categories": ["naming-conventions", "architecture"],
-      "path": "skills/typescript/react-conventions.md",
-      "description": "Component naming, hook patterns, state management, and file organization for React with TypeScript."
-    },
-    {
-      "id": "typescript-vitest-testing",
-      "name": "Vitest Testing",
-      "language": "typescript",
-      "framework": "vitest",
-      "categories": ["testing"],
-      "path": "skills/typescript/vitest-testing.md",
-      "description": "Test organization, mocking, snapshot testing, and coverage configuration for Vitest."
-    },
-    {
-      "id": "javascript-express-patterns",
+      "id": "contributed-express-patterns",
       "name": "Express Patterns",
-      "language": "javascript",
-      "framework": "express",
-      "categories": ["architecture", "error-handling"],
-      "path": "skills/javascript/express-patterns.md",
-      "description": "Middleware patterns, router organization, error handling, and request validation for Express."
-    },
-    {
-      "id": "go-gin-conventions",
-      "name": "Gin Conventions",
-      "language": "go",
-      "framework": "gin",
-      "categories": ["architecture", "error-handling"],
-      "path": "skills/go/gin-conventions.md",
-      "description": "Router groups, middleware, error responses, and handler patterns for Gin."
-    },
-    {
-      "id": "go-cobra-cli-patterns",
-      "name": "Cobra CLI Patterns",
-      "language": "go",
-      "framework": "cobra",
-      "categories": ["architecture"],
-      "path": "skills/go/cobra-cli-patterns.md",
-      "description": "Command structure, flag handling, persistent flags, and subcommand organization for Cobra."
-    },
-    {
-      "id": "go-stdlib-patterns",
-      "name": "Go Standard Library Patterns",
-      "language": "go",
+      "language": "any",
       "framework": null,
-      "categories": ["error-handling", "testing"],
-      "path": "skills/go/stdlib-patterns.md",
-      "description": "Error wrapping, table-driven tests, interfaces, and context usage in idiomatic Go."
+      "categories": [
+        "error-handling",
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Community-contributed skill: Express Patterns.",
+      "source_repo": "",
+      "source_path": "contributed/express-patterns.md",
+      "content_url": "",
+      "trust": "contributed",
+      "format": "markdown",
+      "tags": [],
+      "updated_at": ""
     },
     {
-      "id": "rust-actix-conventions",
-      "name": "Actix Web Conventions",
-      "language": "rust",
-      "framework": "actix",
-      "categories": ["architecture", "error-handling"],
-      "path": "skills/rust/actix-conventions.md",
-      "description": "Handler patterns, extractors, error responses, and app state management for Actix Web."
+      "id": "contributed-fastapi-conventions",
+      "name": "Fastapi Conventions",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "imports-and-dependencies",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Community-contributed skill: Fastapi Conventions.",
+      "source_repo": "",
+      "source_path": "contributed/fastapi-conventions.md",
+      "content_url": "",
+      "trust": "contributed",
+      "format": "markdown",
+      "tags": [],
+      "updated_at": ""
     },
     {
-      "id": "rust-tokio-patterns",
-      "name": "Tokio Async Patterns",
-      "language": "rust",
-      "framework": "tokio",
-      "categories": ["architecture", "error-handling"],
-      "path": "skills/rust/tokio-patterns.md",
-      "description": "Task spawning, channel patterns, graceful shutdown, and error handling in async Rust with Tokio."
+      "id": "contributed-flask-conventions",
+      "name": "Flask Conventions",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Community-contributed skill: Flask Conventions.",
+      "source_repo": "",
+      "source_path": "contributed/flask-conventions.md",
+      "content_url": "",
+      "trust": "contributed",
+      "format": "markdown",
+      "tags": [],
+      "updated_at": ""
     },
     {
-      "id": "java-spring-boot-patterns",
+      "id": "contributed-gin-conventions",
+      "name": "Gin Conventions",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Community-contributed skill: Gin Conventions.",
+      "source_repo": "",
+      "source_path": "contributed/gin-conventions.md",
+      "content_url": "",
+      "trust": "contributed",
+      "format": "markdown",
+      "tags": [],
+      "updated_at": ""
+    },
+    {
+      "id": "contributed-nextjs-patterns",
+      "name": "Nextjs Patterns",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "architecture"
+      ],
+      "description": "Community-contributed skill: Nextjs Patterns.",
+      "source_repo": "",
+      "source_path": "contributed/nextjs-patterns.md",
+      "content_url": "",
+      "trust": "contributed",
+      "format": "markdown",
+      "tags": [],
+      "updated_at": ""
+    },
+    {
+      "id": "contributed-pytest-patterns",
+      "name": "Pytest Patterns",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "architecture"
+      ],
+      "description": "Community-contributed skill: Pytest Patterns.",
+      "source_repo": "",
+      "source_path": "contributed/pytest-patterns.md",
+      "content_url": "",
+      "trust": "contributed",
+      "format": "markdown",
+      "tags": [],
+      "updated_at": ""
+    },
+    {
+      "id": "contributed-react-conventions",
+      "name": "React Conventions",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "architecture"
+      ],
+      "description": "Community-contributed skill: React Conventions.",
+      "source_repo": "",
+      "source_path": "contributed/react-conventions.md",
+      "content_url": "",
+      "trust": "contributed",
+      "format": "markdown",
+      "tags": [],
+      "updated_at": ""
+    },
+    {
+      "id": "contributed-spring-boot-patterns",
       "name": "Spring Boot Patterns",
-      "language": "java",
-      "framework": "spring",
-      "categories": ["architecture", "testing", "error-handling"],
-      "path": "skills/java/spring-boot-patterns.md",
-      "description": "Layered architecture, repository pattern, @ControllerAdvice, and integration testing for Spring Boot."
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "architecture"
+      ],
+      "description": "Community-contributed skill: Spring Boot Patterns.",
+      "source_repo": "",
+      "source_path": "contributed/spring-boot-patterns.md",
+      "content_url": "",
+      "trust": "contributed",
+      "format": "markdown",
+      "tags": [],
+      "updated_at": ""
+    },
+    {
+      "id": "contributed-sqlalchemy-patterns",
+      "name": "Sqlalchemy Patterns",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "architecture"
+      ],
+      "description": "Community-contributed skill: Sqlalchemy Patterns.",
+      "source_repo": "",
+      "source_path": "contributed/sqlalchemy-patterns.md",
+      "content_url": "",
+      "trust": "contributed",
+      "format": "markdown",
+      "tags": [],
+      "updated_at": ""
+    },
+    {
+      "id": "contributed-stdlib-patterns",
+      "name": "Stdlib Patterns",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "architecture"
+      ],
+      "description": "Community-contributed skill: Stdlib Patterns.",
+      "source_repo": "",
+      "source_path": "contributed/stdlib-patterns.md",
+      "content_url": "",
+      "trust": "contributed",
+      "format": "markdown",
+      "tags": [],
+      "updated_at": ""
+    },
+    {
+      "id": "contributed-structlog-logging",
+      "name": "Structlog Logging",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "imports-and-dependencies",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Community-contributed skill: Structlog Logging.",
+      "source_repo": "",
+      "source_path": "contributed/structlog-logging.md",
+      "content_url": "",
+      "trust": "contributed",
+      "format": "markdown",
+      "tags": [],
+      "updated_at": ""
+    },
+    {
+      "id": "contributed-tokio-patterns",
+      "name": "Tokio Patterns",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling"
+      ],
+      "description": "Community-contributed skill: Tokio Patterns.",
+      "source_repo": "",
+      "source_path": "contributed/tokio-patterns.md",
+      "content_url": "",
+      "trust": "contributed",
+      "format": "markdown",
+      "tags": [],
+      "updated_at": ""
+    },
+    {
+      "id": "contributed-vitest-testing",
+      "name": "Vitest Testing",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Community-contributed skill: Vitest Testing.",
+      "source_repo": "",
+      "source_path": "contributed/vitest-testing.md",
+      "content_url": "",
+      "trust": "contributed",
+      "format": "markdown",
+      "tags": [],
+      "updated_at": ""
     }
   ]
 }

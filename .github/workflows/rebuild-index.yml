@@ -1,0 +1,35 @@
+name: Rebuild Index
+
+on:
+  schedule:
+    - cron: '0 6 * * *'
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Build index
+        run: python build_index.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Commit if changed
+        run: |
+          git diff --quiet index.json && echo "No changes" && exit 0
+          git config user.name "skill-index-bot"
+          git config user.email "bot@skillgen.dev"
+          git add index.json
+          git commit -m "chore: rebuild index ($(date -u +%Y-%m-%d))"
+          git push
