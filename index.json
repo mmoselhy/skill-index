@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-04-08T07:18:13+00:00",
+  "updated": "2026-04-09T07:21:16+00:00",
   "sources_crawled": [
     "anthropics/skills",
     "github/awesome-copilot",
@@ -77,13 +77,15 @@
       "language": "any",
       "framework": null,
       "categories": [
+        "naming-conventions",
         "error-handling",
         "testing",
         "imports-and-dependencies",
         "architecture",
+        "code-style",
         "logging-and-observability"
       ],
-      "description": "Build apps with the Claude API or Anthropic SDK. TRIGGER when: code imports `anthropic`/`@anthropic-ai/sdk`/`claude_agent_sdk`, or user asks to use Claude API, Anthropic SDKs, or Agent SDK. DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-science tasks.",
+      "description": "",
       "source_repo": "anthropics/skills",
       "source_path": "skills/claude-api/SKILL.md",
       "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/claude-api/SKILL.md",
