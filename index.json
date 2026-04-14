@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-04-13T08:01:51+00:00",
+  "updated": "2026-04-14T07:44:14+00:00",
   "sources_crawled": [
     "anthropics/skills",
     "github/awesome-copilot",
@@ -85,7 +85,7 @@
         "code-style",
         "logging-and-observability"
       ],
-      "description": "",
+      "description": "Build, debug, and optimize Claude API / Anthropic SDK apps. Apps built with this skill should include prompt caching. TRIGGER when: code imports anthropic/@anthropic-ai/sdk; user asks to use the Claude API, Anthropic SDKs, or Managed Agents (/v1/agents, /v1/sessions, /v1/environments). DO NOT TRIGGER when: code imports `openai`/other AI SDK, general programming, or ML/data-science tasks.",
       "source_repo": "anthropics/skills",
       "source_path": "skills/claude-api/SKILL.md",
       "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/claude-api/SKILL.md",
