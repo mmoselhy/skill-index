@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-05-01T08:10:14+00:00",
+  "updated": "2026-05-02T07:42:39+00:00",
   "sources_crawled": [
     "anthropics/skills",
     "github/awesome-copilot",
@@ -551,6 +551,26 @@
       "updated_at": ""
     },
     {
+      "id": "awesomecursorrules-cloudflare-email-telegram-cursor-rules",
+      "name": "Cloudflare Email Telegram Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Cloudflare Email Telegram development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/cloudflare-email-telegram-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/cloudflare-email-telegram-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "cloudflare-email-telegram"
+      ],
+      "updated_at": ""
+    },
+    {
       "id": "awesomecursorrules-code-guidelines-cursor-rules",
       "name": "Code Guidelines Cursor Rules",
       "language": "any",
@@ -682,6 +702,28 @@
       "format": "markdown",
       "tags": [
         "cursor-ai-react-typescript-shadcn-ui-cursorrules-p"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-cursor-rules-pack-v2-cursor-rules",
+      "name": "Cursor Rules Pack V2 Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Cursor rules for Cursor Rules Pack V2 development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/cursor-rules-pack-v2-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/cursor-rules-pack-v2-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "cursor-rules-pack-v2"
       ],
       "updated_at": ""
     },
@@ -1217,6 +1259,28 @@
       "format": "markdown",
       "tags": [
         "graphical-apps-development"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-helium-mcp-cursor-rules",
+      "name": "Helium Mcp Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "imports-and-dependencies",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Helium Mcp development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/helium-mcp-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/helium-mcp-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "helium-mcp"
       ],
       "updated_at": ""
     },
@@ -2796,6 +2860,28 @@
       "updated_at": ""
     },
     {
+      "id": "awesomecursorrules-react-formengine-ai-form-builder-cursor-rules",
+      "name": "React Formengine Ai Form Builder Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "imports-and-dependencies",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for React Formengine Ai Form Builder development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/react-formengine-ai-form-builder-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/react-formengine-ai-form-builder-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "react-formengine-ai-form-builder"
+      ],
+      "updated_at": ""
+    },
+    {
       "id": "awesomecursorrules-react-graphql-apollo-client-cursor-rules",
       "name": "React Graphql Apollo Client Cursor Rules",
       "language": "any",
@@ -2999,6 +3085,25 @@
       "format": "markdown",
       "tags": [
         "react-typescript-symfony"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-rtl-right-to-left-i18n-cursor-rules",
+      "name": "Rtl Right To Left I18N Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "code-style"
+      ],
+      "description": "Cursor rules for Rtl Right To Left I18N development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/rtl-right-to-left-i18n-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/rtl-right-to-left-i18n-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "rtl-right-to-left-i18n"
       ],
       "updated_at": ""
     },
