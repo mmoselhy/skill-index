@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-05-04T08:28:26+00:00",
+  "updated": "2026-05-05T08:08:00+00:00",
   "sources_crawled": [
     "anthropics/skills",
     "github/awesome-copilot",
@@ -370,6 +370,26 @@
       "format": "markdown",
       "tags": [
         "xlsx"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-alpha-skills-quant-factor-research-cursor-rules",
+      "name": "Alpha Skills Quant Factor Research Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Alpha Skills Quant Factor Research development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/alpha-skills-quant-factor-research/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/alpha-skills-quant-factor-research/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "alpha-skills-quant-factor-research"
       ],
       "updated_at": ""
     },
@@ -1756,6 +1776,28 @@
       "updated_at": ""
     },
     {
+      "id": "awesomecursorrules-momen-cursurrules-prompt-file-cursor-rules",
+      "name": "Momen Cursurrules Prompt File Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Cursor rules for Momen Cursurrules Prompt File development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/momen-cursurrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/momen-cursurrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "momen-cursurrules-prompt-file"
+      ],
+      "updated_at": ""
+    },
+    {
       "id": "awesomecursorrules-nativescript-cursor-rules",
       "name": "Nativescript Cursor Rules",
       "language": "any",
@@ -1982,6 +2024,26 @@
       "format": "markdown",
       "tags": [
         "nextjs-tailwind-typescript-apps-cursorrules-prompt"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-nextjs-tanstack-query-cursor-rules",
+      "name": "Nextjs Tanstack Query Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "architecture"
+      ],
+      "description": "Cursor rules for Nextjs Tanstack Query development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/nextjs-tanstack-query-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nextjs-tanstack-query-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "nextjs-tanstack-query"
       ],
       "updated_at": ""
     },
@@ -3046,6 +3108,27 @@
       "updated_at": ""
     },
     {
+      "id": "awesomecursorrules-react-tanstack-router-query-cursor-rules",
+      "name": "React Tanstack Router Query Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Cursor rules for React Tanstack Router Query development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/react-tanstack-router-query-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/react-tanstack-router-query-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "react-tanstack-router-query"
+      ],
+      "updated_at": ""
+    },
+    {
       "id": "awesomecursorrules-react-typescript-nextjs-nodejs-cursorrules-prompt-cursor-rules",
       "name": "React Typescript Nextjs Nodejs Cursorrules Prompt  Cursor Rules",
       "language": "any",
@@ -4088,6 +4171,27 @@
       "updated_at": ""
     },
     {
+      "id": "awesomecursorrules-vue-claude-stack-cursor-rules",
+      "name": "Vue Claude Stack Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "architecture"
+      ],
+      "description": "Cursor rules for Vue Claude Stack development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/vue-claude-stack/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/vue-claude-stack/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "vue-claude-stack"
+      ],
+      "updated_at": ""
+    },
+    {
       "id": "awesomecursorrules-vue3-composition-api-cursor-rules",
       "name": "Vue3 Composition Api Cursor Rules",
       "language": "any",
@@ -4149,6 +4253,25 @@
       "format": "markdown",
       "tags": [
         "webassembly-z80-cellular-automata-cursorrules-prom"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-wordpress-claude-stack-cursor-rules",
+      "name": "Wordpress Claude Stack Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture"
+      ],
+      "description": "Cursor rules for Wordpress Claude Stack development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/wordpress-claude-stack/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/wordpress-claude-stack/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "wordpress-claude-stack"
       ],
       "updated_at": ""
     },
