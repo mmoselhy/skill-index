@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-05-11T09:37:15+00:00",
+  "updated": "2026-05-12T08:38:21+00:00",
   "sources_crawled": [
     "anthropics/skills",
     "github/awesome-copilot",
@@ -374,6 +374,29 @@
       "updated_at": ""
     },
     {
+      "id": "awesomecursorrules-ai-agent-specialist-cursor-rules",
+      "name": "Ai Agent Specialist Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "naming-conventions",
+        "error-handling",
+        "testing",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Ai Agent Specialist development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/ai-agent-specialist/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/ai-agent-specialist/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "ai-agent-specialist"
+      ],
+      "updated_at": ""
+    },
+    {
       "id": "awesomecursorrules-alpha-skills-quant-factor-research-cursor-rules",
       "name": "Alpha Skills Quant Factor Research Cursor Rules",
       "language": "any",
@@ -587,6 +610,29 @@
       "format": "markdown",
       "tags": [
         "cloudflare-email-telegram"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-cloudflare-workers-hono-angular-saas-cursor-rules",
+      "name": "Cloudflare Workers Hono Angular Saas Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Cloudflare Workers Hono Angular Saas development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/cloudflare-workers-hono-angular-saas-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/cloudflare-workers-hono-angular-saas-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "cloudflare-workers-hono-angular-saas"
       ],
       "updated_at": ""
     },
@@ -1068,6 +1114,29 @@
       "updated_at": ""
     },
     {
+      "id": "awesomecursorrules-fastapi-production-architecture-cursor-rules",
+      "name": "Fastapi Production Architecture Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Fastapi Production Architecture development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/fastapi-production-architecture-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/fastapi-production-architecture-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "fastapi-production-architecture"
+      ],
+      "updated_at": ""
+    },
+    {
       "id": "awesomecursorrules-flutter-app-expert-cursor-rules",
       "name": "Flutter App Expert Cursor Rules",
       "language": "any",
@@ -1301,6 +1370,30 @@
       "format": "markdown",
       "tags": [
         "helium-mcp"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-hol-hedera-typescript-cursor-rules",
+      "name": "Hol Hedera Typescript Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "documentation",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Hol Hedera Typescript development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/hol-hedera-typescript-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/hol-hedera-typescript-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "hol-hedera-typescript"
       ],
       "updated_at": ""
     },
@@ -1664,6 +1757,25 @@
       "format": "markdown",
       "tags": [
         "kubernetes-mkdocs-documentation-cursorrules-prompt"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-landing-page-image-quality-cursor-rules",
+      "name": "Landing Page Image Quality Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture"
+      ],
+      "description": "Cursor rules for Landing Page Image Quality development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/landing-page-image-quality-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/landing-page-image-quality-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "landing-page-image-quality"
       ],
       "updated_at": ""
     },
@@ -2174,6 +2286,26 @@
       "updated_at": ""
     },
     {
+      "id": "awesomecursorrules-nextjs15-supabase-cursor-rules",
+      "name": "Nextjs15 Supabase Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "imports-and-dependencies",
+        "architecture"
+      ],
+      "description": "Cursor rules for Nextjs15 Supabase development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/nextjs15-supabase-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/nextjs15-supabase-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "nextjs15-supabase"
+      ],
+      "updated_at": ""
+    },
+    {
       "id": "awesomecursorrules-nodejs-mongodb-jwt-express-react-cursorrules-promp-cursor-rules",
       "name": "Nodejs Mongodb Jwt Express React Cursorrules Promp Cursor Rules",
       "language": "any",
@@ -2394,6 +2526,29 @@
       "updated_at": ""
     },
     {
+      "id": "awesomecursorrules-pr-review-cursor-rules",
+      "name": "Pr Review Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Pr Review development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/pr-review-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/pr-review-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "pr-review"
+      ],
+      "updated_at": ""
+    },
+    {
       "id": "awesomecursorrules-pr-template-cursor-rules",
       "name": "Pr Template Cursor Rules",
       "language": "any",
@@ -2479,6 +2634,29 @@
       "format": "markdown",
       "tags": [
         "pyqt6-eeg-processing"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-pyspark-etl-best-practices-cursor-rules",
+      "name": "Pyspark Etl Best Practices Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Pyspark Etl Best Practices development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/pyspark-etl-best-practices-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/pyspark-etl-best-practices-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "pyspark-etl-best-practices"
       ],
       "updated_at": ""
     },
@@ -3172,6 +3350,26 @@
       "updated_at": ""
     },
     {
+      "id": "awesomecursorrules-readme-best-practices-cursor-rules",
+      "name": "Readme Best Practices Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Readme Best Practices development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/readme-best-practices-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/readme-best-practices-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "readme-best-practices"
+      ],
+      "updated_at": ""
+    },
+    {
       "id": "awesomecursorrules-rtl-right-to-left-i18n-cursor-rules",
       "name": "Rtl Right To Left I18N Cursor Rules",
       "language": "any",
@@ -3187,6 +3385,89 @@
       "format": "markdown",
       "tags": [
         "rtl-right-to-left-i18n"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-semiotic-react-dataviz-cursor-rules",
+      "name": "Semiotic React Dataviz Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "imports-and-dependencies",
+        "architecture",
+        "code-style"
+      ],
+      "description": "Cursor rules for Semiotic React Dataviz development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/semiotic-react-dataviz-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/semiotic-react-dataviz-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "semiotic-react-dataviz"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-snowflake-cortex-ai-cursor-rules",
+      "name": "Snowflake Cortex Ai Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "architecture"
+      ],
+      "description": "Cursor rules for Snowflake Cortex Ai development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/snowflake-cortex-ai-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/snowflake-cortex-ai-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "snowflake-cortex-ai"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-snowflake-data-engineering-cursor-rules",
+      "name": "Snowflake Data Engineering Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "architecture",
+        "code-style",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Snowflake Data Engineering development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/snowflake-data-engineering-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/snowflake-data-engineering-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "snowflake-data-engineering"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-snowflake-snowpark-dbt-cursor-rules",
+      "name": "Snowflake Snowpark Dbt Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "testing",
+        "imports-and-dependencies"
+      ],
+      "description": "Cursor rules for Snowflake Snowpark Dbt development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/snowflake-snowpark-dbt-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/snowflake-snowpark-dbt-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "snowflake-snowpark-dbt"
       ],
       "updated_at": ""
     },
@@ -3414,9 +3695,10 @@
       "language": "any",
       "framework": null,
       "categories": [
+        "error-handling",
         "testing",
-        "documentation",
-        "architecture"
+        "architecture",
+        "code-style"
       ],
       "description": "Cursor rules for Swiftui Guidelines development.",
       "source_repo": "PatrickJS/awesome-cursorrules",
@@ -3490,6 +3772,67 @@
       "format": "markdown",
       "tags": [
         "tailwind-shadcn-ui-integration-cursorrules-prompt"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-tanstack-query-v5-cursor-rules",
+      "name": "Tanstack Query V5 Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "architecture"
+      ],
+      "description": "Cursor rules for Tanstack Query V5 development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/tanstack-query-v5-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/tanstack-query-v5-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "tanstack-query-v5"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-tanstack-router-react-cursor-rules",
+      "name": "Tanstack Router React Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "architecture"
+      ],
+      "description": "Cursor rules for Tanstack Router React development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/tanstack-router-react-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/tanstack-router-react-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "tanstack-router-react"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-tanstack-start-cursor-rules",
+      "name": "Tanstack Start Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "architecture"
+      ],
+      "description": "Cursor rules for Tanstack Start development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/tanstack-start-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/tanstack-start-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "tanstack-start"
       ],
       "updated_at": ""
     },
@@ -4079,6 +4422,29 @@
       "format": "markdown",
       "tags": [
         "unity-cursor-ai-c"
+      ],
+      "updated_at": ""
+    },
+    {
+      "id": "awesomecursorrules-vercel-deployment-cursor-rules",
+      "name": "Vercel Deployment Cursor Rules",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling",
+        "testing",
+        "imports-and-dependencies",
+        "architecture",
+        "logging-and-observability"
+      ],
+      "description": "Cursor rules for Vercel Deployment development.",
+      "source_repo": "PatrickJS/awesome-cursorrules",
+      "source_path": "rules/vercel-deployment-cursorrules-prompt-file/.cursorrules",
+      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/vercel-deployment-cursorrules-prompt-file/.cursorrules",
+      "trust": "community",
+      "format": "markdown",
+      "tags": [
+        "vercel-deployment"
       ],
       "updated_at": ""
     },
