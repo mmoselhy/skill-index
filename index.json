@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-05-12T08:38:21+00:00",
+  "updated": "2026-05-13T08:42:59+00:00",
   "sources_crawled": [
     "anthropics/skills",
     "github/awesome-copilot",
@@ -834,29 +834,6 @@
       "format": "markdown",
       "tags": [
         "cursorrules-cursor-ai-wordpress-draft-macos-prompt"
-      ],
-      "updated_at": ""
-    },
-    {
-      "id": "awesomecursorrules-cursorrules-file-cursor-ai-python-fastapi-api-cursor-rules",
-      "name": "Cursorrules File Cursor Ai Python Fastapi Api Cursor Rules",
-      "language": "any",
-      "framework": null,
-      "categories": [
-        "naming-conventions",
-        "error-handling",
-        "documentation",
-        "architecture",
-        "logging-and-observability"
-      ],
-      "description": "Cursor rules for Cursorrules File Cursor Ai Python Fastapi Api development.",
-      "source_repo": "PatrickJS/awesome-cursorrules",
-      "source_path": "rules/cursorrules-file-cursor-ai-python-fastapi-api/.cursorrules",
-      "content_url": "https://raw.githubusercontent.com/PatrickJS/awesome-cursorrules/main/rules/cursorrules-file-cursor-ai-python-fastapi-api/.cursorrules",
-      "trust": "community",
-      "format": "markdown",
-      "tags": [
-        "cursorrules-file-cursor-ai-python-fastapi-api"
       ],
       "updated_at": ""
     },
