@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-07-18T07:45:46+00:00",
+  "updated": "2026-07-19T08:13:35+00:00",
   "sources_crawled": [
     "anthropics/skills",
     "github/awesome-copilot",
@@ -134,27 +134,6 @@
       "format": "markdown",
       "tags": [
         "docx"
-      ],
-      "updated_at": ""
-    },
-    {
-      "id": "skills-frontend-design",
-      "name": "frontend-design",
-      "language": "any",
-      "framework": null,
-      "categories": [
-        "error-handling",
-        "architecture",
-        "code-style"
-      ],
-      "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
-      "source_repo": "anthropics/skills",
-      "source_path": "skills/frontend-design/SKILL.md",
-      "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/frontend-design/SKILL.md",
-      "trust": "official",
-      "format": "markdown",
-      "tags": [
-        "frontend-design"
       ],
       "updated_at": ""
     },
