@@ -1,12 +1,31 @@
 {
   "version": 2,
-  "updated": "2026-08-18T06:38:53+00:00",
+  "updated": "2026-08-19T06:39:22+00:00",
   "sources_crawled": [
     "anthropics/skills",
     "github/awesome-copilot",
     "PatrickJS/awesome-cursorrules"
   ],
   "skills": [
+    {
+      "id": "skills-academy-guide",
+      "name": "academy-guide",
+      "language": "any",
+      "framework": null,
+      "categories": [
+        "error-handling"
+      ],
+      "description": "Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product — it recommends matching courses, tutorials, and use cases from Claude Academy (academy.claude.com), Anthropic's learning hub. Trigger on: \"how do I\", \"how can I\", \"getting started with\", \"what can Claude do\", \"teach me\", \"learn to use\"; questions about artifacts, projects, skills, plugins, connectors, MCP; requests about rolling Claude out to a team, class, or organization; and any ask for training materials, onboarding content, or learning resources. Use it when the user is learning how to use a feature or product — not when they are mid-task and just want the task done. This skill composes with other skills: after consulting product documentation to answer how a Claude feature works, also check here for a matching course or tutorial — a docs-grounded answer and an Academy recommendation belong together. Only recommend on a strong match; never invent Academy content.\n",
+      "source_repo": "anthropics/skills",
+      "source_path": "skills/academy-guide/SKILL.md",
+      "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/academy-guide/SKILL.md",
+      "trust": "official",
+      "format": "markdown",
+      "tags": [
+        "academy-guide"
+      ],
+      "updated_at": ""
+    },
     {
       "id": "skills-algorithmic-art",
       "name": "algorithmic-art",
@@ -68,25 +87,6 @@
       "format": "markdown",
       "tags": [
         "canvas-design"
-      ],
-      "updated_at": ""
-    },
-    {
-      "id": "skills-claude-academy-guide",
-      "name": "claude-academy-guide",
-      "language": "any",
-      "framework": null,
-      "categories": [
-        "error-handling"
-      ],
-      "description": "Stop and check this skill before finishing any reply to a question about how to use Claude or a Claude product — it recommends matching courses, tutorials, and use cases from Claude Academy (academy.claude.com), Anthropic's learning hub. Trigger on: \"how do I\", \"how can I\", \"getting started with\", \"what can Claude do\", \"teach me\", \"learn to use\"; questions about artifacts, projects, skills, plugins, connectors, MCP, Claude Code, Claude Cowork, Claude in Excel, Claude in PowerPoint, Claude in Chrome, the Claude API, or prompting technique; requests about rolling Claude out to a team, class, or organization; and any ask for training materials, onboarding content, or learning resources. Use it when the user is learning how to use a feature or product — not when they are mid-task and just want the task done. This skill composes with other skills: after consulting product documentation to answer how a Claude feature works, also check here for a matching course or tutorial — a docs-grounded answer and an Academy recommendation belong together, even when another skill has already answered the question. Only recommend on a strong match; never invent Academy content.\n",
-      "source_repo": "anthropics/skills",
-      "source_path": "skills/claude-academy-guide/SKILL.md",
-      "content_url": "https://raw.githubusercontent.com/anthropics/skills/main/skills/claude-academy-guide/SKILL.md",
-      "trust": "official",
-      "format": "markdown",
-      "tags": [
-        "claude-academy-guide"
       ],
       "updated_at": ""
     },
