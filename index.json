@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "updated": "2026-09-28T12:56:13+00:00",
+  "updated": "2026-09-29T12:08:43+00:00",
   "sources_crawled": [
     "anthropics/skills",
     "github/awesome-copilot",
@@ -100,6 +100,7 @@
         "error-handling",
         "testing",
         "imports-and-dependencies",
+        "documentation",
         "architecture",
         "code-style",
         "logging-and-observability"
